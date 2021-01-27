@@ -148,7 +148,7 @@ footer{
 
 footer {
   text-align: center;
-  flex-direction: row wrap;
+  flex-flow: row wrap;
 }
 
 footer .content-wrapper{
@@ -164,28 +164,38 @@ footer .contact{
 
 footer .social-icons{
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   flex-flow: row wrap;
   width: 90%;
 }
 
-footer .social-icons i, footer .email i{
+footer .social-icons i{
   color: #e6f2ee;
   font-size: 3em;
   line-height: 2em;
 }
 
-footer .email{
+footer .calendly i{
+  color: #e6f2ee;
+  font-size: 4em;
+  padding-top: 50px;
+}
+
+footer .calendly{
   display: flex;
   flex-flow: row wrap;
-  justify-content: space-around;
-  align-items: center;
+  justify-content: space-between;
+  align-items: flex-start;
   width: 90%;
 }
 
-footer .email p{
-  width: 50%;
+footer .calendly p{
+  width: 40%;
   color: #e6f2ee;
+}
+
+footer .calendly img{
+  width: 100px;
 }
 
 footer h2{
@@ -448,7 +458,7 @@ footer .contact{
   align-items: center;
 }
 
-footer .email{
+footer .calendly{
   width: 49%;
 }
 
@@ -537,7 +547,7 @@ header .hero {
 }
 
 
-footer .social-icons i, footer .email i{
+footer .social-icons i, footer .calendly i{
   padding: 0 50px;
   font-size: 4em;
 }
